@@ -1,0 +1,60 @@
+
+/* --------------------------- HEADER --------------------------- */
+#headerWrapper {border-bottom: 1px solid $greyColor;}
+header {
+    display: grid;
+    grid-template-columns: 50px auto;
+    column-gap: $gutter;
+    align-items: center; //vertically
+    padding: .5rem $gutter;
+    span {
+        font-size: 1.6rem;
+        font-weight: $lightWeight;
+        color: $primaryColor;
+    }
+} // end header
+
+
+
+/* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
+
+#navWrapper { 
+    background-color: $primaryColor; 
+}
+nav {
+    ul {
+        padding: 0;
+        margin: 0 $gutter;
+    }
+    ul li {
+        list-style-type: none;
+    }
+    ul li a {
+        color: $greyColor;
+        text-decoration: none;
+        display: block;
+        padding: .8rem $gutter;
+    }
+}
+ul li.active a {
+    background-color: rgba(255,255,255,0.8);
+    color: $primaryColor;
+    border-radius: 10px;
+}
+
+//NAV ENDS HERE
+
+//main stuff
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section div {
+    width: 100%;
+    img {
+        width: 100%;
+        height:auto;
+        margin: 10px ;
+    }
+
+}

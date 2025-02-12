@@ -1,0 +1,18 @@
+/* NAVIGATION STUFF GOES HERE  */
+nav {
+    ul {
+        display: flex;
+        justify-content: flex-start;
+        column-gap: $gutter;
+    }
+    ul li a {
+        margin: 10px 0
+    }
+    ul li hover {
+        text-decoration: underline 2px $accentColor;
+    } //end hover
+} // end nav
+
+section {
+    grid-template-columns: 1fr 1fr;
+}
