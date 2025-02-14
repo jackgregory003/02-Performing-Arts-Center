@@ -345,6 +345,7 @@ ul li.active a {
 section {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 10px;
 }
 
 section div {
@@ -353,7 +354,6 @@ section div {
 section div img {
   width: 100%;
   height: auto;
-  margin: 10px;
 }
 
 @media only screen and (min-width: 35rem) {
