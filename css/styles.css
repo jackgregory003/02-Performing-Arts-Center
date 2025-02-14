@@ -312,14 +312,16 @@ header {
   padding: 0.5rem 10px;
 }
 header span {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 1.6rem;
-  font-weight: 300;
-  color: #1d295f;
+  color: #e69500;
 }
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 #navWrapper {
-  background-color: #1d295f;
+  background-color: #000000;
 }
 
 nav ul {
@@ -330,7 +332,7 @@ nav ul li {
   list-style-type: none;
 }
 nav ul li a {
-  color: #ccc;
+  color: #e69500;
   text-decoration: none;
   display: block;
   padding: 0.8rem 10px;
@@ -338,7 +340,7 @@ nav ul li a {
 
 ul li.active a {
   background-color: rgba(255, 255, 255, 0.8);
-  color: #1d295f;
+  color: #000000;
   border-radius: 10px;
 }
 
@@ -354,6 +356,20 @@ section div {
 section div img {
   width: 100%;
   height: auto;
+}
+
+h1 {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #e69500;
+}
+
+h2 {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #e69500;
 }
 
 @media only screen and (min-width: 35rem) {

@@ -8,9 +8,11 @@ header {
     align-items: center; //vertically
     padding: .5rem $gutter;
     span {
+        font-family: "Lato", serif;
+        font-weight: 700;
+        font-style: normal;
         font-size: 1.6rem;
-        font-weight: $lightWeight;
-        color: $primaryColor;
+        color: $secondaryColor;
     }
 } // end header
 
@@ -30,7 +32,7 @@ nav {
         list-style-type: none;
     }
     ul li a {
-        color: $greyColor;
+        color: $secondaryColor;
         text-decoration: none;
         display: block;
         padding: .8rem $gutter;
@@ -57,4 +59,19 @@ section div {
         height:auto;
     }
 
+}
+
+h1 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: $secondaryColor;
+}
+
+
+h2 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: $secondaryColor;
 }
