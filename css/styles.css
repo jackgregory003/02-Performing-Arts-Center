@@ -346,6 +346,10 @@ ul li.active a {
   padding: 0.8rem 10px; /* Ensures consistent spacing */
 }
 
+body {
+  padding: 0 1rem; /* Adds space on left and right */
+}
+
 section {
   display: grid;
   grid-template-columns: 1fr;

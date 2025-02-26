@@ -49,6 +49,11 @@ ul li.active a {
 //NAV ENDS HERE
 
 //main stuff
+
+body {
+    padding: 0 1rem; /* Adds space on left and right */
+}
+
 section {
     display: grid;
     grid-template-columns: 1fr;
